@@ -13,6 +13,8 @@
 		A992F1CA28FBDD4400CB1D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A992F1C828FBDD4400CB1D5F /* Main.storyboard */; };
 		A992F1CC28FBDD4600CB1D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A992F1CB28FBDD4600CB1D5F /* Assets.xcassets */; };
 		A992F1CF28FBDD4600CB1D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A992F1CD28FBDD4600CB1D5F /* LaunchScreen.storyboard */; };
+		A992F1D728FBE59000CB1D5F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A992F1D628FBE59000CB1D5F /* TableViewController.swift */; };
+		A992F1D928FBF5AA00CB1D5F /* AddListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A992F1D828FBF5AA00CB1D5F /* AddListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A992F1CB28FBDD4600CB1D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A992F1CE28FBDD4600CB1D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A992F1D028FBDD4600CB1D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A992F1D628FBE59000CB1D5F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A992F1D828FBF5AA00CB1D5F /* AddListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 		A992F1C128FBDD4400CB1D5F /* TableViewApp */ = {
 			isa = PBXGroup;
 			children = (
+				A992F1D628FBE59000CB1D5F /* TableViewController.swift */,
 				A992F1C228FBDD4400CB1D5F /* AppDelegate.swift */,
+				A992F1D828FBF5AA00CB1D5F /* AddListViewController.swift */,
 				A992F1C428FBDD4400CB1D5F /* SceneDelegate.swift */,
 				A992F1C628FBDD4400CB1D5F /* ViewController.swift */,
 				A992F1C828FBDD4400CB1D5F /* Main.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A992F1C728FBDD4400CB1D5F /* ViewController.swift in Sources */,
+				A992F1D928FBF5AA00CB1D5F /* AddListViewController.swift in Sources */,
 				A992F1C328FBDD4400CB1D5F /* AppDelegate.swift in Sources */,
 				A992F1C528FBDD4400CB1D5F /* SceneDelegate.swift in Sources */,
+				A992F1D728FBE59000CB1D5F /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
